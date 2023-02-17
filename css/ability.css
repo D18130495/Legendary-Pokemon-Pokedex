@@ -1,0 +1,32 @@
+.ability {
+    padding-top: 120px;
+    position: relative;
+}
+
+.ability-row {
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    justify-content:space-around;
+}
+
+.ability .section-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 575.98px) {
+    #line {
+        width: 510px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}

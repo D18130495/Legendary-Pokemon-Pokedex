@@ -1,0 +1,105 @@
+.pokedex {
+    padding-top: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .pokedex .section-heading {
+    margin-bottom: 80px;
+  }
+
+  .pokedex .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .pokedex .item {
+    position: relative;
+    z-index: 222;
+  }
+
+  .pokedex-item {
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    margin: 15px;
+  }
+
+  .pokedex-item .thumb {
+    position: relative;
+    border-radius: 50px;
+  }
+
+  .pokedex-item:hover .down-content h4,
+  .pokedex-item:hover .down-content span {
+    color: #4da6e7;
+  }
+
+  .pokedex-item .thumb img {
+    border-top-right-radius: 23px;
+    border-top-left-radius: 23px;
+    overflow: hidden;
+  }
+
+#pokedex .pokedex-item:hover {
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 0 6px #999;
+  box-shadow: 0 0 6px #999;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+  .pokedex-item .down-content {
+    background-color: #fff;
+    text-align: center;
+    padding: 18px 0px;
+    border-bottom-right-radius: 23px;
+    border-bottom-left-radius: 23px;
+  }
+
+  .pokedex-item .down-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 8px;
+    transition: all .3s;
+  }
+
+  .pokedex-item .down-content span {
+    font-size: 15px;
+    color: #afafaf;
+    transition: all .3s;
+  }
+
+  .pokedex .owl-nav {
+    display: inline-block!important;
+    position: absolute;
+    top: -125px;
+    right: 15%;
+    max-width: 1320px;
+  }
+
+  .pokedex .owl-nav .owl-next {
+    margin-left: 10px;
+  }
+
+  .pokedex .owl-nav span {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    font-size: 30px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s;
+  }
+
+  .pokedex .owl-nav span:hover {
+    color: #fff;
+    background-color: #4da6e7;
+  }
